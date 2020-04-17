@@ -1,0 +1,30 @@
+// Written By Mahtab Tanim
+#include<bits/stdc++.h>
+using namespace std;
+#define MP ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define nl "\n"
+#define End return 0
+#define ll long long int
+#define mp make_pair
+#define pb push_back
+#define ull unsigned long long int
+#define pi acos(-1)
+#define forn(i,a,b) for (int i=a;i<=b;i++)
+#define PI 2*acos(0)
+int main()
+{
+int t;
+cin>>t;
+for(int z=1;z<=t;z++)
+{
+	double r,k,i,sum=0;
+	cin>>r;
+	double area_c, area_s,area_f;
+	area_c=PI*r*r;
+	k=2*r;
+	area_s=k*k;
+	area_f=area_s-area_c;	
+	printf("Case %d: %.2lf\n",z,area_f);
+}
+End;
+}
