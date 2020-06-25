@@ -15,9 +15,7 @@ int main()
 int t;
 cin>>t;
 for(int z=1;z<=t;z++)
-{
-	
-
+{	
 	int n,k,i,sum=0;
 	cin>>n;
 	for(i=0;i<n;i++)
